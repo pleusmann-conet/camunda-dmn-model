@@ -11,12 +11,13 @@
 
   <groupId>org.camunda.bpm.model</groupId>
   <artifactId>camunda-dmn-model</artifactId>
-  <version>7.7.0</version>
+  <version>7.7.0-wts</version>
   <name>camunda BPM - DMN Model API</name>
   <packaging>jar</packaging>
 
   <properties>
     <camunda.version.old>7.6.0</camunda.version.old>
+  	<version.project.camunda>7.7.0</version.project.camunda>
   </properties>
 
   <dependencyManagement>
@@ -54,6 +55,7 @@
     <dependency>
       <groupId>org.camunda.bpm.model</groupId>
       <artifactId>camunda-xml-model</artifactId>
+      <version>${version.project.camunda}</version>
     </dependency>
 
     <dependency>
