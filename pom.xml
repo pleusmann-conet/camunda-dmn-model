@@ -22,16 +22,16 @@
 
   <distributionManagement>
     <repository>
-      <id>vsts-maven-whtmanagersharedrepository</id>
-      <name>WHTmanagerSharedRepository</name>
-      <url>https://sucea.pkgs.visualstudio.com/_packaging/WHTmanagerSharedRepository/maven/v1</url>
+      <id>vsts-maven-whtmanagerrepo</id>
+      <name>WHTmanagerRepo</name>
+      <url>https://sucea.pkgs.visualstudio.com/_packaging/WHTmanagerRepo/maven/v1</url>
     </repository>
   </distributionManagement>
 
   <repositories>
   <repository>
-   <id>vsts-maven-whtmanagersharedrepository</id>
-   <url>https://sucea.pkgs.visualstudio.com/_packaging/WHTmanagerSharedRepository/maven/v1</url>
+   <id>vsts-maven-whtmanagerrepo</id>
+   <url>https://sucea.pkgs.visualstudio.com/_packaging/WHTmanagerRepo/maven/v1</url>
    <releases>
     <enabled>true</enabled>
    </releases>
