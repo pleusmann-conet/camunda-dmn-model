@@ -41,7 +41,7 @@ public final class DmnModelConstants {
 
   public static final String DMN_ELEMENT = "DMNElement";
   public static final String DMN_ELEMENT_ALLOWED_ANSWERS = "allowedAnswers";
-  public static final String DMN_ELEMENT_ALLOWED_VALUE = "allowedValue";
+  public static final String DMN_ELEMENT_ALLOWED_VALUE = "allowedValues";
   public static final String DMN_ELEMENT_ARTIFACT = "artifact";
   public static final String DMN_ELEMENT_ASSOCIATION = "association";
   public static final String DMN_ELEMENT_AUTHORITY_REQUIREMENT = "authorityRequirement";

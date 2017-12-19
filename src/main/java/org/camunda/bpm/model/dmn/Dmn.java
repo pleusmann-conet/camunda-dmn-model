@@ -317,16 +317,16 @@ public class Dmn {
     InformationRequirementImpl.registerType(modelBuilder);
     InputImpl.registerType(modelBuilder);
     InputClauseImpl.registerType(modelBuilder);
-    InputDataImpl.registerType(modelBuilder);
     InputDataReferenceImpl.registerType(modelBuilder);
+    InputDataImpl.registerType(modelBuilder);
     InputDecisionReferenceImpl.registerType(modelBuilder);
     InputEntryImpl.registerType(modelBuilder);
     InputExpressionImpl.registerType(modelBuilder);
     InputValuesImpl.registerType(modelBuilder);
     InvocationImpl.registerType(modelBuilder);
     ItemComponentImpl.registerType(modelBuilder);
-    ItemDefinitionImpl.registerType(modelBuilder);
     ItemDefinitionReferenceImpl.registerType(modelBuilder);
+    ItemDefinitionImpl.registerType(modelBuilder);
     KnowledgeRequirementImpl.registerType(modelBuilder);
     KnowledgeSourceImpl.registerType(modelBuilder);
     ListImpl.registerType(modelBuilder);
